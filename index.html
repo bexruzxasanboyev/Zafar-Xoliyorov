@@ -5,28 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-  *{margin:0;padding:0;box-sizing:border-box}html, body{overflow-x:hidden}.hero{padding-bottom:19px}.hero__container{max-width:390px;margin:0 auto;padding:0 10px;position:relative}.hero__top{background-repeat:no-repeat;position:relative;background-size:cover;padding-top:27px;margin-left:-10px;margin-right:-10px;padding-left:10px;padding-right:10px}.hero__title{font-family:"Atyp TEST" , sans-serif;font-weight:700;font-size:clamp(21px, 6.5vw, 26px);line-height:130%;letter-spacing:5%;margin-bottom:5px;text-align:center;text-transform:uppercase}.hero__title--highlight{color:#DD0000}.hero__image-wrapper{position:relative}.hero__image-wrapper::after{content:'';position:absolute;top:0;left:-10px;right:-10px;bottom:0;pointer-events:none;background:linear-gradient(to right, #F5F0EB 0%, transparent 15%), linear-gradient(to left, #F5F0EB 0%, transparent 15%), linear-gradient(to top, #F5F0EB 0%, transparent 25%)}.hero__image{max-width:391px;width:100%;height:auto;display:block}.hero__info{max-width:362px;width:100%;box-shadow:0px 2px 9.4px 0px #00000040;background-color:white;position:absolute;border-radius:20px;top:clamp(380px, 118vw, 440px);display:flex;flex-direction:column;align-items:center;justify-content:center;margin-left:3.5px;padding:6px 0 16px 0}.hero__text{font-family:"Atyp TEST" , sans-serif;font-weight:500;font-size:18px;line-height:120%;letter-spacing:5%;text-align:center;margin-bottom:7px}.hero__btn{text-decoration: none; font-family:"Atyp TEST" , sans-serif;font-weight:700;font-size:clamp(21px, 6vw, 22px);line-height:150%;letter-spacing:5%;text-align:center;text-transform:uppercase;color:white;padding:16px 0;margin:0 auto;display:flex;align-items:center;justify-content:center;max-width:313px;width:100%;border:none;cursor:pointer;background-color:#DD0000;border-radius:8px}.hero__features{padding-top:128px}.hero__subtitle{font-family:"Atyp TEST" , sans-serif;font-weight:700;font-size:clamp(24px, 7vw, 26px);line-height:130%;letter-spacing:5%;text-align:center;text-transform:uppercase;margin-bottom:12px}.hero__list{list-style:none;gap:16px;display:flex;flex-direction:column;margin-bottom:26px}.hero__item{display:flex;flex-direction:column;align-items:center;justify-content:center}.hero__item-icon{margin-bottom:-15px;position:relative;z-index:1}.hero__item-text{padding:12px 20px;border:1px solid #DD0000;border-radius:35px;text-align:center;width:clamp(300px, 93vw, 330px)}.hero__item-text span{font-family:"Atyp TEST" , sans-serif;font-weight:400;font-size:14px;line-height:130%;letter-spacing:5%}@media (max-width:400px){.hero__info{margin-left:0}.hero__btn{max-width:280px}.hero__text{font-size:17px}}
+        *{margin:0;padding:0;box-sizing:border-box}html,body{overflow-x:hidden;min-height:100vh}.hero{padding-top:9px;padding-bottom:22px}.hero__container{max-width:415px;margin:0 auto;padding:0 10px;position:relative}.hero__top{background:linear-gradient(93.78deg, #0C6D00 0%, #17D300 128.37%);padding:10px 20px 10px 21px;margin-bottom:21px;max-width:415px;margin-left:auto;margin-right:auto}.hero__top h1{font-family:Inter, sans-serif;font-weight:900;font-size:clamp(18.5px, 5.8vw, 23px);line-height:140%;letter-spacing:5%;text-transform:uppercase;color:white}.hero__box{display:flex;align-items:center;justify-content:space-between}.hero__content h2{font-family:"Atyp TEST" , sans-serif;font-weight:600;font-size:16px;line-height:130%;letter-spacing:5%;margin-bottom:16px}.hero__info{display:flex;gap:4px;margin-bottom:48px}.hero__info ul{display:flex;flex-direction:column;position:relative;z-index:4;gap:15px}.hero__info ul li{font-family:"Atyp TEST" , sans-serif;font-weight:500;list-style:none;font-size:clamp(14px, 4vw, 16px);line-height:130%;letter-spacing:5%}.hero__images-box{position:absolute;right:0;top:-5px;width:212px}.hero__images-box img{max-width:212px;width:100%;height:auto;position:absolute;left:20px;position:relative;z-index:2}.gradient{max-width:224px;width:100%;height:253px;background:linear-gradient(145.45deg, #19D700 13.87%, #067700 100%);border-radius:171px 0 0 0;z-index:1;position:absolute;bottom:0;right:clamp(-45px, -14vw, -15px)}.hero__images-box::after{content:'';position:absolute;bottom:-3px;left:51px;width:100%;height:80px;background:linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.85));backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);z-index:3;mask-image:linear-gradient(to bottom, transparent, black);-webkit-mask-image:linear-gradient(to bottom, transparent, black)}.hero__btn{text-decoration: none; max-width:324px;width:100%;cursor:pointer;border:none;border-radius:12px;background:linear-gradient(94.13deg, #16C700 13.8%, #14B300 55.11%, #119700 83%);position:relative;z-index:3;box-shadow:0px 4px 0px 0px #006103, 0px 2px 3px 1px #FFFFFF40 inset;padding:33px 0 32px 0;margin-bottom:40px;font-family:Inter, sans-serif;font-weight:700;font-size:24px;line-height:100%;letter-spacing:3%;text-transform:uppercase;color:white;margin-left:auto;margin-right:auto;display:flex;align-items:center;justify-content:center}.hero__gift{display:flex;gap:15px;transform:translateX(10px)}.hero__gift img{padding:8px 6px 5px 7px;border-radius:8px;background-color:white;border:1px solid #16C600;box-shadow:2px 2px 5.5px 0px #00FF1E40;margin-left:20px;position:relative;z-index:3}.hero__gift p{font-family:"Atyp TEST" , sans-serif;font-weight:105;font-size:clamp(16px, 5vw, 18px);line-height:120%;letter-spacing:5%;padding:8px 8px 8px 43px;border:1px solid #108C00;border-radius:9px;position:absolute;left:clamp(30px, 10vw, 50px);bottom:-23px}.hero__gift p b{font-weight:700}@media (max-width:400px){.hero__top{padding:10px 10px 10px 21px}.hero__gift img{margin-left:7px}.hero__images-box img{left:35px}}@media (max-width:350px){.hero__gift{transform:translateX(0)}.hero__images-box img{left:50px}}
     </style>
-    
     <title>Madrasa Webinar</title>
-    <!--begin Convert Experiences code-->
-  <script defer type="text/javascript">
-    // fill in the values for the variables that you want to use
-    var _conv_page_type = "";
-    var _conv_category_id = "";
-    var _conv_category_name = "";
-    var _conv_product_sku = "";
-    var _conv_product_name = "";
-    var _conv_product_price = "";
-    var _conv_customer_id = "";
-    var _conv_custom_v1 = "";
-    var _conv_custom_v2 = "";
-    var _conv_custom_v3 = "";
-    var _conv_custom_v4 = "";
-    <!--end of editing here-->
-    </script>
-    <script type="text/javascript" src="//cdn-4.convertexperiments.com/v1/js/10019174-10019513.js?environment=production"></script>
-  <!-- end Convert Experiences code -->
     <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
     <noscript>
         <link rel="stylesheet" href="./css/main.css" />
@@ -36,85 +17,77 @@
 <body>
     <main>
         <section class="hero">
-            <div class="hero__container">
+            <div class="hero__bg">
                 <div class="hero__top">
-                    <h1 class="hero__title">O’zbekistonda yagona <br>
-                        madrasalarga kirish <br>
-                        uchun <span class="hero__title--highlight">Bepul darslar</span></h1>
+                    <h1>Madrasalarga qanday <br>
+                        qilib oson va tez <br>
+                        kirish mumkin?</h1>
+                </div>
+                <div class="hero__container">
 
-                    <div class="hero__image-wrapper">
-                        <img class="hero__image" src="./images/speaker.avif" loading="lazy" decoding="async" width="391"
-                            height="391" alt="speaker">
+                    <div class="hero__box">
+                        <div class="hero__content">
+                            <h2>Ushbu kanalda siz <br>
+                                Bepulga:</h2>
+
+                            <div class="hero__info">
+                                <img src="./images/line.png" width="7" height="151" loading="lazy" decoding="async"
+                                    alt="line">
+
+                                <ul>
+                                    <li>Madrasalarga kirish uchun <br>
+                                        <b>bepul darsliklarni</b>
+                                    </li>
+                                    <li>Madrasaga <b>oson</b> va <b>tez <br>
+                                            kirish</b> yo‘llarni</li>
+                                    <li><b>100+ talabalar</b> qo‘llagan <br>
+                                        samarali metodlar</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="hero__images-box">
+                            <img src="./images/speaker.avif" loading="lazy" decoding="async" width="212" height="301"
+                                alt="speaker">
+                            <div class="gradient"></div>
+                        </div>
                     </div>
-                    <div class="hero__info">
-                        <p class="hero__text">2 oylik madrasaga kirish <br>
-                            darslarimiz <b>mutlaqo bepul</b></p>
-                            <a class="hero__btn registerBtn" href="https://t.me/+1YyUi8cGcpk2ZmMy">
-                                Ro'yxatdan o'tish
-                            </a>
-                    </div>
+
+                    <a class="hero__btn registerBtn" href="https://t.me/+1YyUi8cGcpk2ZmMy">
+                        ro'yxatdan o'tish
+                    </a>
                 </div>
 
-
-                <div class="hero__features">
-                    <h2 class="hero__subtitle">Ushbu kanalda siz <br>
-                        Bepulga:</h2>
-
-                    <ul class="hero__list">
-                        <li class="hero__item">
-                            <img class="hero__item-icon" src="./images/number/1.avif" loading="lazy" decoding="async"
-                                width="50" height="50" alt="number">
-                            <p class="hero__item-text">
-                                <span>O’zbekistondagi madrasalarga <br>
-                                    kirish uchun <b>bepul darsliklarni</b></span>
-                            </p>
-                        </li>
-                        <li class="hero__item">
-                            <img class="hero__item-icon" src="./images/number/2.avif" loading="lazy" decoding="async"
-                                width="50" height="50" alt="number">
-                            <p class="hero__item-text">
-                                <span>Madrasaga qanday qilib <b>oson</b> va <br>
-                                    <b>tez kirish</b> mumkin bo’lgan yo’llarni</span>
-                            </p>
-                        </li>
-                        <li class="hero__item">
-                            <img class="hero__item-icon" src="./images/number/3.avif" loading="lazy" decoding="async"
-                                width="50" height="50" alt="number">
-                            <p class="hero__item-text">
-                                <span><b>100 dan oshiq talabalar</b> madrasaga <br>
-                                    oson kirgan metodlarni o’rganasiz</span>
-                            </p>
-                        </li>
-                    </ul>
+                <div class="hero__gift">
+                    <img src="./images/gift.avif" loading="lazy" decoding="async" width="52" height="52" alt="gift">
+                    <p>2 oylik madrasaga kirish <br>
+                        darslarimiz <b>mutlaqo bepul</b></p>
                 </div>
-
-                <a class="hero__btn registerBtn" href="https://t.me/+1YyUi8cGcpk2ZmMy">
-                    Ro'yxatdan o'tish
-                </a>
             </div>
         </section>
     </main>
 
-   
     <script defer>
         document.addEventListener("DOMContentLoaded", (() => { document.querySelectorAll(".registerBtn").forEach((e => { e.addEventListener("click", (() => { "function" == typeof fbq && fbq("track", "CompleteRegistration") })) })) }));
     </script>
     <!-- Meta Pixel Code -->
-<script defer>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1449595223563935');
-    fbq('track', 'PageView');
+    <script defer>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1449595223563935');
+        fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1449595223563935&ev=PageView&noscript=1"
-    /></noscript>
+            src="https://www.facebook.com/tr?id=1449595223563935&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
 </body>
 
